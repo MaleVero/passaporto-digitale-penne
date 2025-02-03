@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passaporto Digitale - Penna Artigianale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .qr-code {
+            margin-top: 20px;
+        }
+        video {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Passaporto Digitale</h1>
+        <h2>Penna Artigianale</h2>
+        <img src="penna.jpg" alt="Penna Artigianale">
+        <p><strong>Modello:</strong> Eleganza in Legno</p>
+        <p><strong>Materiali:</strong> Legno di Noce, Acciaio Inox</p>
+        <p><strong>Data di Creazione:</strong> Febbraio 2025</p>
+        <p><strong>Numero di Serie:</strong> #001</p>
+        <p><strong>Artigiano:</strong> Mario Rossi</p>
+        <p><strong>Autenticazione:</strong> Firma Digitale Inclusa</p>
+        
+        <h3>Video della Lavorazione</h3>
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+            Il tuo browser non supporta il tag video.
+        </video>
+        <video controls>
+            <source src="video2.mp4" type="video/mp4">
+            Il tuo browser non supporta il tag video.
+        </video>
+        
+        <div class="qr-code">
+            <img src="qrcode.png" alt="QR Code" width="150">
+        </div>
+    </div>
+</body>
+</html>
